@@ -15,7 +15,7 @@ app.get("/vr-analyze", function (request, response) {
 
       var visualRecognition = new VisualRecognitionV3({
           version: '2018-03-19',
-          api_key: '228d60261a5fb06b5c3a608e81781acfa942d022'
+          api_key: <place_here_your_api_key>
       });
 
       //var images_file = fs.createReadStream('./fruitbowl.jpg');
